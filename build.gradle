@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '1.2.31'
+    ext.kotlin_version = '1.2.41'
     repositories {
         mavenCentral()
         maven { url("https://plugins.gradle.org/m2/") }
@@ -16,8 +16,12 @@ repositories {
     jcenter()
 }
 
+compileKotlin2Js {
+}
+
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
+    compile "org.jetbrains.kotlinx:kotlinx-html-js:0.6.10"
     testCompile "org.jetbrains.kotlin:kotlin-test-js:$kotlin_version"
 }
 
