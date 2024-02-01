@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/kotlin-demos/kotlin-js-hello-world-demo#readme",
   "dependencies": {
-    "kotlin": "^1.2.50",
-    "kotlinx-html-js": "^0.6.4",
-    "virtual-dom": "^2.1.1"
+    "kotlin": "1.2.50",
+    "kotlinx-html-js": "0.6.4",
+    "virtual-dom": "2.1.1"
   }
 }
